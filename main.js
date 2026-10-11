@@ -1,3 +1,6 @@
+// Copyright (C) 2026 Samy
+// Licence : GNU GPL-3.0 (voir le fichier LICENSE)
+
 const { app, BrowserWindow, session } = require("electron");
 const { ElectronBlocker } = require("@ghostery/adblocker-electron");
 const path = require("path");
