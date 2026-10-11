@@ -1,0 +1,30 @@
+{
+  "name": "zestflix-app",
+  "version": "1.0.0",
+  "description": "Application Windows de Zestflix",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Samy",
+  "license": "UNLICENSED",
+  "private": true,
+  "type": "commonjs",
+  "build": {
+    "appId": "com.zestflix.app",
+    "productName": "Zestflix",
+    "win": {
+      "target": "nsis",
+      "icon": "build/icon.png"
+    }
+  },
+  "devDependencies": {
+    "electron": "^44.7.0",
+    "electron-builder": "^26.15.3"
+  },
+  "dependencies": {
+    "@ghostery/adblocker-electron": "^2.20.1"
+  }
+}
